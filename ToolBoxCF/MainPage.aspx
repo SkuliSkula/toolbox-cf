@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="ToolBoxCF.MainPage" %>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="dk">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Skúli Skúlason">
     <link rel="icon" href="images/logo_h0K_icon.jpg" />
     <title>ToolBox CF - Functional Fitness</title>
 
@@ -301,132 +301,132 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
             <h2 class="featurette-heading">Holdplan
                 <span class="text-muted">ToolBox CF</span>
             </h2>
-            <table class="table table-reflow pull-left status">
-                <thead>
-                    <tr>
-                        <th>Tid/Dag</th>
-                        <th>Mandag</th>
-                        <th>Tirsdag</th>
-                        <th>Onsdag</th>
-                        <th>Torsdag</th>
-                        <th>Fredag</th>
-                        <th>Lørdag</th>
-                        <th>Søndag</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">06:00-07:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">08:00-09:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Kidz/Outdoor</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">09:00-10:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Level 2</td>
-                        <td>WOD</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">10:00-11:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>OL Weightlifting</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">11:00-12:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td>Styrke</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">15:00-16:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">16:00-17:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">17:00-18:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">18:00-19:00</th>
-                        <td>Team WOD</td>
-                        <td>WOD</td>
-                        <td>WOD</td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">19:00-20:00</th>
-                        <td>WOD</td>
-                        <td>Beginners</td>
-                        <td>Intro</td>
-                        <td>Beginners</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">20:00-21:00</th>
-                        <td>WOD</td>
-                        <td>Gymnastic</td>
-                        <td>OL Weightlifting</td>
-                        <td>Mobility</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table table-reflow pull-left status">
+                    <thead>
+                        <tr>
+                            <th>Tid/Dag</th>
+                            <th>Mandag</th>
+                            <th>Tirsdag</th>
+                            <th>Onsdag</th>
+                            <th>Torsdag</th>
+                            <th>Fredag</th>
+                            <th>Lørdag</th>
+                            <th>Søndag</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">06:00-07:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">08:00-09:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Kidz/Outdoor</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">09:00-10:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Level 2</td>
+                            <td>WOD</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10:00-11:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>OL Weightlifting</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:00-12:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td>Styrke</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15:00-16:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16:00-17:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17:00-18:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18:00-19:00</th>
+                            <td>Team WOD</td>
+                            <td>WOD</td>
+                            <td>WOD</td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19:00-20:00</th>
+                            <td>WOD</td>
+                            <td>Beginners</td>
+                            <td>Intro</td>
+                            <td>Beginners</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20:00-21:00</th>
+                            <td>WOD</td>
+                            <td>Gymnastic</td>
+                            <td>OL Weightlifting</td>
+                            <td>Mobility</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             <script>
                 $('#holdplan tr').each(function () {
                     $(this).find('td').each(function () {
