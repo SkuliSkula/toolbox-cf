@@ -12,7 +12,10 @@
 }
 
 .headline {
-    padding: 120px 0;
+    padding-bottom: 200px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 120px;
 }
 
 .headline h1 {
@@ -183,7 +186,7 @@ table.status td, th {
 
 @media(max-width:640px) {
     .headline {
-        padding: 75px 0 25px 0;
+        padding: 100px 0 60px 0;
     }
 
     .headline h1 {
