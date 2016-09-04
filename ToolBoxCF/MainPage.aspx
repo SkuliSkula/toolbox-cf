@@ -45,7 +45,7 @@
     <link href="css/pricetable.css" rel="stylesheet" />
     <script>
         $(function () {
-            $("#pricetable").load("pricetable.html");
+            $("#pricetable").load("Content/pricetable.html");
         });
     </script>
 

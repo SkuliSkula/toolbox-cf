@@ -83,7 +83,7 @@
     <Content Include="language\language.js" />
     <Content Include="language\languages.min.css" />
     <Content Include="language\languages.png" />
-    <Content Include="pricetable.html" />
+    <Content Include="Content\pricetable.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\googlemaps.js" />
@@ -96,6 +96,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\toolboxcf.pubxml" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
