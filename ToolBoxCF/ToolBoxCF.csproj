@@ -80,6 +80,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\logosmall.png" />
     <Content Include="images\logo_h0K_icon.jpg" />
+    <Content Include="index.html" />
     <Content Include="language\language.js" />
     <Content Include="language\languages.min.css" />
     <Content Include="language\languages.png" />
