@@ -142,8 +142,8 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <div id="collapse1" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <p class="lead">
-                                    Hvis du er helt ny indenfor Funktionel træning, skal du tage på en intro time. 
-                            Vores dygtige instruktør vil introducere dig for denne fantastiske træningsform med en god opvarmning, og en udfordrende workout, som alle kan være med til. (Tilmeldingen foregår ved at skrive til os enten via Facebook eller vores mail "info@toolboxcf.dk").
+                                   - WOD (Workout of the Day)                                Er det løbende program. Denne træning kan alle være med til. Programmet er bygget sammen, så man kan træne alle dage uden at belaste de samme muskelgrupper. 
+                                    Træningen er en god blanding af det gymnastiske, styrketræning og cardio. Her er du sikker på at få trænet hele kroppen.
                                 </p>
                             </div>
                         </div>
