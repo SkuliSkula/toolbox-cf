@@ -74,6 +74,7 @@
     <Content Include="css\pricetable.css" />
     <Content Include="css\sticky-social.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\Image1.jpg" />
     <Content Include="images\Image2.jpg" />
     <Content Include="images\Image3.jpg" />
     <Content Include="images\Image4.jpg" />

@@ -100,6 +100,12 @@ table.status td, th {
     font-size:medium;
 }
 
+#holdplan {
+    min-width:100%;
+    overflow-x:auto;
+    table-layout:fixed;
+}
+
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
@@ -171,6 +177,7 @@ table.status td, th {
 }
 
 @media(max-width:668px) {
+    
     .headline h1 {
         font-size: 70px;
     }
@@ -185,6 +192,7 @@ table.status td, th {
 }
 
 @media(max-width:640px) {
+
     .headline {
         padding: 100px 0 60px 0;
     }
@@ -199,6 +207,7 @@ table.status td, th {
 }
 
 @media(max-width:375px) {
+    
     .featurette-divider {
         margin: 10px 0;
     }
