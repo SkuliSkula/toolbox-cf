@@ -35,12 +35,6 @@
     <!-- Icons -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
-    <!-- jQuery -->
-    <script src="Scripts/jquery-3.1.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="Scripts/bootstrap.min.js"></script>
-
     <!-- Load the price table -->
     <link href="css/pricetable.css" rel="stylesheet" />
     <script>
@@ -49,9 +43,6 @@
         });
     </script>
 
-    <!-- Load google maps -->
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCbWg0JM91wROvWBbCyRQLrPwj_DJhcSdk">
-    </script>
 </head>
 
 <body>
