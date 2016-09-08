@@ -3,6 +3,12 @@
     font-family:'Franklin Gothic';
 }
 
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+
 .header-image {
     display: block;
     width: 100%;
@@ -53,12 +59,13 @@ footer {
     margin-right:0px;
     margin-bottom:0px;
     font-size:larger;
+    overflow:hidden;
 }
 
 #footer1 {
     width:33%;
     height:234px;
-    margin-top:30px
+    margin-top:30px;
 }
 
 #footer1 a img {

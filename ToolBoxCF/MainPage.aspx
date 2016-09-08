@@ -46,10 +46,10 @@
 </head>
 
 <body>
-
+  
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -92,7 +92,6 @@
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
-            
         </div>
     </header>
 
@@ -105,9 +104,6 @@
                 <li><a href="https://memberservice.sport-solutions.dk/" class="entypo-users" target="_blank"><span>Members</span></a></li>
             </ul>
         </aside>
-        <div id="test" class="fancy_title">
-            <canvas width="640" height="100"></canvas>
-        </div>
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
@@ -142,7 +138,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <div id="collapse1" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <p class="lead">
-                                   - WOD (Workout of the Day)
+                                    - WOD (Workout of the Day)
                                 Er det løbende program. Denne træning kan alle være med til. Programmet er bygget sammen, så man kan træne alle dage uden at belaste de samme muskelgrupper. 
                                     Træningen er en god blanding af det gymnastiske, styrketræning og cardio. Her er du sikker på at få trænet hele kroppen.
                                 </p>
