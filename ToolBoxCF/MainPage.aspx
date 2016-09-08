@@ -46,7 +46,7 @@
 </head>
 
 <body>
-  
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -132,10 +132,13 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <div class="panel panel-default">
                         <div class="panel-heading" style="color: whitesmoke; background-color: dodgerblue">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day (Click)</a>
                             </h4>
                         </div>
                         <div id="collapse1" class="panel-collapse collapse in">
+                            <script>
+                                $('#collapse1').collapse("hide");
+                            </script>
                             <div class="panel-body">
                                 <p class="lead">
                                     - WOD (Workout of the Day)
@@ -280,242 +283,241 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     </div>
                 </div>
             </div>
-        </div>
 
-        <hr class="featurette-divider">
+            <hr class="featurette-divider">
 
-        <!-- Third Featurette -->
-        <div class="featurette" id="holdplan">
-            <h2 class="featurette-heading">Holdplan
+            <!-- Third Featurette -->
+            <div class="featurette" id="holdplan">
+                <h2 class="featurette-heading">Holdplan
                 <span class="text-muted">ToolBox CF</span>
-            </h2>
-            <table class="table table-reflow pull-left status">
-                <thead>
-                    <tr>
-                        <th>Tid/Dag</th>
-                        <th>Mandag</th>
-                        <th>Tirsdag</th>
-                        <th>Onsdag</th>
-                        <th>Torsdag</th>
-                        <th>Fredag</th>
-                        <th>Lørdag</th>
-                        <th>Søndag</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">06:00-07:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">08:00-09:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">09:00-10:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Level 2</td>
-                        <td>WOD</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">10:00-11:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Level 2</td>
-                        <td>OL Weightlifting</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">11:00-12:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Kidz/Outdoor</td>
-                        <td>Styrke</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">12:00-13:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">15:00-16:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">16:00-17:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">17:00-18:00</th>
-                        <td></td>
-                        <td>Beginners(1)</td>
-                        <td></td>
-                        <td>Beginners(1)</td>
-                        <td>Gymnastic</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">18:00-19:00</th>
-                        <td>Team WOD</td>
-                        <td>WOD</td>
-                        <td>WOD</td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">19:00-20:00</th>
-                        <td>WOD</td>
-                        <td>Beginners(2)</td>
-                        <td>Intro</td>
-                        <td>Beginners(2)</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">20:00-21:00</th>
-                        <td>WOD</td>
-                        <td>Gymnastic</td>
-                        <td>WOD</td>
-                        <td>Mobility</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-            <script>
-                $('#holdplan tr').each(function () {
-                    $(this).find('td').each(function () {
-                        $(this).css('color', 'whitesmoke');
-                        switch ($(this).text()) {
-                            case 'WOD':
-                                $(this).css('background-color', 'dodgerblue');
-                                break;
-                            case 'Beginners(1)':
-                            case 'Beginners(2)':
-                                $(this).css('background-color', 'deepskyblue');
-                                break;
-                            case 'Level 2':
-                                $(this).css('background-color', 'darkolivegreen');
-                                break;
-                            case 'Team WOD':
-                                $(this).css('background-color', 'orangered');
-                                break;
-                            case 'Intro':
-                                $(this).css('background-color', 'green');
-                                break;
-                            case 'Mobility':
-                                $(this).css('background-color', 'darkgrey');
-                                break;
-                            case 'Styrke':
-                                $(this).css('background-color', 'black');
-                                break;
-                            case 'OL Weightlifting':
-                                $(this).css('background-color', 'darkgoldenrod');
-                                break;
-                            case 'Gymnastic':
-                                $(this).css('background-color', 'mediumpurple');
-                                break;
-                            case 'Kidz/Outdoor':
-                                $(this).css('background-color', 'deeppink');
-                                break;
-                        }
-                    });
-                });
-            </script>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Fourth Featurette -->
-        <div class="featurette" id="ourvision">
-            <img class="featurette-image img-circle img-responsive pull-right" src="images/Image2.jpg">
-            <h2 class="featurette-heading">Vores vision &
-                <span class="text-muted">Holdånd</span>
-            </h2>
-            <p class="lead">Vores drøm om ToolBox CF Er at skabe et fællesskab og sammenhold, som gør det sjovere at træne og giver en anderledes måde at være sammen med sine venner på. Hos ToolBox CF danner vi rammerne for kvalitetstræning med fokus på god teknik og at vi har det sjovt sammen undervejs!</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Fifth Featurette -->
-        <div class="featurette" id="prices">
-            <div id="pricetable"></div>
-        </div>
-
-        <hr class="featurette-divider">
-    </div>
-    <!-- Footer -->
-    <footer class="footer_content">
-        <div class="row">
-            <div class="col-lg-3 image-center" id="footer1">
-                <a href="#">
-                    <img src="images/logosmall.png" alt="artist">
-                </a>
-            </div>
-            <div class="col-lg-3 text-center" id="footer2">
-                <h2>Kontakt</h2>
-                <ul>
-                    <li>Grønlandsvej 9ø</li>
-                    <li>8700 Horsens</li>
-                    <li>Telephone</li>
-                    <li><a href="mailto:info@toolboxcf.dk?Subject=Hello%20again" target="_top">info@toolboxcf.dk</a></li>
-                    <li>Copyright &copy; ToolBox CF ApS 2016</li>
-                </ul>
-            </div>
-            <div class="col-lg-3" id="footer3">
-                <h2>Where to find us</h2>
-                <div id="googleMap" style="width: 350px; height: 263px;"></div>
+                </h2>
+                <table class="table table-reflow pull-left status">
+                    <thead>
+                        <tr>
+                            <th>Tid/Dag</th>
+                            <th>Mandag</th>
+                            <th>Tirsdag</th>
+                            <th>Onsdag</th>
+                            <th>Torsdag</th>
+                            <th>Fredag</th>
+                            <th>Lørdag</th>
+                            <th>Søndag</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">06:00-07:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">08:00-09:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">09:00-10:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Level 2</td>
+                            <td>WOD</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10:00-11:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Level 2</td>
+                            <td>OL Weightlifting</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:00-12:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Kidz/Outdoor</td>
+                            <td>Styrke</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:00-13:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15:00-16:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16:00-17:00</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17:00-18:00</th>
+                            <td></td>
+                            <td>Beginners(1)</td>
+                            <td></td>
+                            <td>Beginners(1)</td>
+                            <td>Gymnastic</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18:00-19:00</th>
+                            <td>Team WOD</td>
+                            <td>WOD</td>
+                            <td>WOD</td>
+                            <td>WOD</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19:00-20:00</th>
+                            <td>WOD</td>
+                            <td>Beginners(2)</td>
+                            <td>Intro</td>
+                            <td>Beginners(2)</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20:00-21:00</th>
+                            <td>WOD</td>
+                            <td>Gymnastic</td>
+                            <td>WOD</td>
+                            <td>Mobility</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <script>
-                    $.getScript('Scripts/googlemaps.js', function () {
-                        initMap();
+                    $('#holdplan tr').each(function () {
+                        $(this).find('td').each(function () {
+                            $(this).css('color', 'whitesmoke');
+                            switch ($(this).text()) {
+                                case 'WOD':
+                                    $(this).css('background-color', 'dodgerblue');
+                                    break;
+                                case 'Beginners(1)':
+                                case 'Beginners(2)':
+                                    $(this).css('background-color', 'deepskyblue');
+                                    break;
+                                case 'Level 2':
+                                    $(this).css('background-color', 'darkolivegreen');
+                                    break;
+                                case 'Team WOD':
+                                    $(this).css('background-color', 'orangered');
+                                    break;
+                                case 'Intro':
+                                    $(this).css('background-color', 'green');
+                                    break;
+                                case 'Mobility':
+                                    $(this).css('background-color', 'darkgrey');
+                                    break;
+                                case 'Styrke':
+                                    $(this).css('background-color', 'black');
+                                    break;
+                                case 'OL Weightlifting':
+                                    $(this).css('background-color', 'darkgoldenrod');
+                                    break;
+                                case 'Gymnastic':
+                                    $(this).css('background-color', 'mediumpurple');
+                                    break;
+                                case 'Kidz/Outdoor':
+                                    $(this).css('background-color', 'deeppink');
+                                    break;
+                            }
+                        });
                     });
                 </script>
             </div>
+
+            <hr class="featurette-divider">
+
+            <!-- Fourth Featurette -->
+            <div class="featurette" id="ourvision">
+                <img class="featurette-image img-circle img-responsive pull-right" src="images/Image2.jpg">
+                <h2 class="featurette-heading">Vores vision &
+                <span class="text-muted">Holdånd</span>
+                </h2>
+                <p class="lead">Vores drøm om ToolBox CF Er at skabe et fællesskab og sammenhold, som gør det sjovere at træne og giver en anderledes måde at være sammen med sine venner på. Hos ToolBox CF danner vi rammerne for kvalitetstræning med fokus på god teknik og at vi har det sjovt sammen undervejs!</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- Fifth Featurette -->
+            <div class="featurette" id="prices">
+                <div id="pricetable"></div>
+            </div>
+
+            <hr class="featurette-divider">
         </div>
-    </footer>
+        <!-- Footer -->
+        <footer class="footer_content">
+            <div class="row">
+                <div class="col-lg-3 image-center" id="footer1">
+                    <a href="#">
+                        <img src="images/logosmall.png" alt="artist">
+                    </a>
+                </div>
+                <div class="col-lg-3 text-center" id="footer2">
+                    <h2>Kontakt</h2>
+                    <ul>
+                        <li>Grønlandsvej 9ø</li>
+                        <li>8700 Horsens</li>
+                        <li>Telephone</li>
+                        <li><a href="mailto:info@toolboxcf.dk?Subject=Hello%20again" target="_top">info@toolboxcf.dk</a></li>
+                        <li>Copyright &copy; ToolBox CF ApS 2016</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3" id="footer3">
+                    <h2>Where to find us</h2>
+                    <div id="googleMap" style="width: 350px; height: 263px;"></div>
+                    <script>
+                        $.getScript('Scripts/googlemaps.js', function () {
+                            initMap();
+                        });
+                    </script>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>

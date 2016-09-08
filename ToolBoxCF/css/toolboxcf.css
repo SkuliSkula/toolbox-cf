@@ -3,12 +3,6 @@
     font-family:'Franklin Gothic';
 }
 
-#container {
-    margin-left:auto;
-    margin-right:auto;
-    position:relative;
-}
-
 .header-image {
     display: block;
     width: 100%;
