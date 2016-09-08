@@ -92,7 +92,7 @@
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
-            <div class="container"></div>
+            
         </div>
     </header>
 
@@ -142,7 +142,8 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <div id="collapse1" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <p class="lead">
-                                   - WOD (Workout of the Day)                                Er det løbende program. Denne træning kan alle være med til. Programmet er bygget sammen, så man kan træne alle dage uden at belaste de samme muskelgrupper. 
+                                   - WOD (Workout of the Day)
+                                Er det løbende program. Denne træning kan alle være med til. Programmet er bygget sammen, så man kan træne alle dage uden at belaste de samme muskelgrupper. 
                                     Træningen er en god blanding af det gymnastiske, styrketræning og cardio. Her er du sikker på at få trænet hele kroppen.
                                 </p>
                             </div>
