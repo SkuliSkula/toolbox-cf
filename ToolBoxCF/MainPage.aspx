@@ -132,7 +132,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <div class="panel panel-default">
                         <div class="panel-heading" style="color: whitesmoke; background-color: dodgerblue">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day (Click)</a>
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day</a>
                             </h4>
                         </div>
                         <div id="collapse1" class="panel-collapse collapse in">
