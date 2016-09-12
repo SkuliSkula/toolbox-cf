@@ -94,9 +94,9 @@
         <div class="headline">
         </div>
     </header>
-
+ 
     <!-- Page Content -->
-    <div class="container">
+    <div>
         <aside id="sticky-social">
             <ul>
                 <li><a href="http://www.facebook.com/toolboxcf/" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
@@ -104,9 +104,11 @@
                 <li><a href="https://memberservice.sport-solutions.dk/" class="entypo-users" target="_blank"><span>Members</span></a></li>
             </ul>
         </aside>
-        <hr class="featurette-divider">
     </div>
+   
         <!-- First Featurette -->
+    <div class="container">
+        <hr class="featurette-divider">
         <div class="featurette" id="about">
             <img class="featurette-image img-circle img-circle img-responsive pull-right" src="images/Image3.jpg">
             <h2 class="featurette-heading">Hvad er 
@@ -117,8 +119,9 @@
 Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget isolerede muskelgrupper, vil vi gerne lave øvelser med mere komplekse bevægelser, hvor så mange muskler som muligt bliver aktiveret og dermed forbedre både styrke, balance og hastighed.
             </p>
         </div>
-
         <hr class="featurette-divider">
+    </div>
+        
 
         <!-- Second Featurette -->
         <div class="container">
