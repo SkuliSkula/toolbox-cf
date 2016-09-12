@@ -105,7 +105,7 @@
             </ul>
         </aside>
         <hr class="featurette-divider">
-
+    </div>
         <!-- First Featurette -->
         <div class="featurette" id="about">
             <img class="featurette-image img-circle img-circle img-responsive pull-right" src="images/Image3.jpg">
