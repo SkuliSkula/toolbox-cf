@@ -502,7 +502,6 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <ul>
                         <li>Grønlandsvej 9ø</li>
                         <li>8700 Horsens</li>
-                        <li>Telephone</li>
                         <li><a href="mailto:info@toolboxcf.dk?Subject=Hello%20again" target="_top">info@toolboxcf.dk</a></li>
                         <li>Copyright &copy; ToolBox CF ApS 2016</li>
                     </ul>
