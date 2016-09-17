@@ -368,16 +368,6 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                     </tr>
                     <tr>
-                        <th scope="row">15:00-16:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <th scope="row">16:00-17:00</th>
                         <td></td>
                         <td></td>
