@@ -46,10 +46,9 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -92,12 +91,11 @@
     <!-- Full Width Image Header -->
     <header class="header-image">
         <div class="headline">
-            <div class="container"></div>
         </div>
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div>
         <aside id="sticky-social">
             <ul>
                 <li><a href="http://www.facebook.com/toolboxcf/" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
@@ -105,12 +103,11 @@
                 <li><a href="https://memberservice.sport-solutions.dk/" class="entypo-users" target="_blank"><span>Members</span></a></li>
             </ul>
         </aside>
-        <div id="test" class="fancy_title">
-            <canvas width="640" height="100"></canvas>
-        </div>
-        <hr class="featurette-divider">
+    </div>
 
-        <!-- First Featurette -->
+    <!-- First Featurette -->
+    <div class="container">
+        <hr class="featurette-divider">
         <div class="featurette" id="about">
             <img class="featurette-image img-circle img-circle img-responsive pull-right" src="images/Image3.jpg">
             <h2 class="featurette-heading">Hvad er 
@@ -121,164 +118,168 @@
 Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget isolerede muskelgrupper, vil vi gerne lave øvelser med mere komplekse bevægelser, hvor så mange muskler som muligt bliver aktiveret og dermed forbedre både styrke, balance og hastighed.
             </p>
         </div>
-
         <hr class="featurette-divider">
+    </div>
 
-        <!-- Second Featurette -->
-        <div class="container">
-            <h2 class="featurette-heading">Holdbeskrivelser
-            </h2>
-            <div class="featurette row" id="woddescription">
-                <div class="col-xs-6">
-                    <img class="featurette-image img-circle img-responsive pull-left" src="images/Image4.jpg">
+
+    <!-- Second Featurette -->
+    <div class="container">
+        <h2 class="featurette-heading">Holdbeskrivelser
+        </h2>
+        <div class="featurette row" id="woddescription">
+            <div class="col-xs-6">
+                <img class="featurette-image img-circle img-responsive pull-left" src="images/Image4.jpg">
+            </div>
+            <div class="panel-group col-xs-6 textmedium" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="color: whitesmoke; background-color: dodgerblue">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <script>
+                            $('#collapse1').collapse("hide");
+                        </script>
+                        <div class="panel-body">
+                            <p class="lead">
+                                - WOD (Workout of the Day)
+                                Er det løbende program. Denne træning kan alle være med til. Programmet er bygget sammen, så man kan træne alle dage uden at belaste de samme muskelgrupper. 
+                                    Træningen er en god blanding af det gymnastiske, styrketræning og cardio. Her er du sikker på at få trænet hele kroppen.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-group col-xs-6 textmedium" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="color: whitesmoke; background-color: dodgerblue">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WOD - Workout of the day</a>
-                            </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Hvis du er helt ny indenfor Funktionel træning, skal du tage på en intro time. 
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: green; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">INTRO (Gratis)</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Hvis du er helt ny indenfor Funktionel træning, skal du tage på en intro time. 
                             Vores dygtige instruktør vil introducere dig for denne fantastiske træningsform med en god opvarmning, og en udfordrende workout, som alle kan være med til. (Tilmeldingen foregår ved at skrive til os enten via Facebook eller vores mail "info@toolboxcf.dk").
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: green; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">INTRO (Gratis)</a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Hvis du er helt ny indenfor Funktionel træning, skal du tage på en intro time. 
-                            Vores dygtige instruktør vil introducere dig for denne fantastiske træningsform med en god opvarmning, og en udfordrende workout, som alle kan være med til. (Tilmeldingen foregår ved at skrive til os enten via Facebook eller vores mail "info@toolboxcf.dk").
-                                </p>
-                            </div>
-                        </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: deepskyblue; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">BEGINNERS</a>
+                        </h4>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: deepskyblue; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">BEGINNERS</a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Hvis du lige har været til din første Intro time eller du skal have genopfrisket de almindelige øvelser, er Beginners helt klart noget for dig. 
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Hvis du lige har været til din første Intro time eller du skal have genopfrisket de almindelige øvelser, er Beginners helt klart noget for dig. 
                             Det er et 4 ugers forløb med to træninger om ugen, hvor vi tager jer med helt fra starten. I vil få lært alle de basale øvelser, hvor instruktøren har god tid med jer til at sørge for, at I får lært den rigtige teknik. 
                             Vi vil bruge tid på at snakke med jer omkring træning generelt, kost, søvn mm.
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: orangered; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">TEAM WOD</a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Snup din bedste kammerat under armen og kør en god og sjov makker Workout sammen. Her er teamwork og strategi en fordel, og I vil opleve at man presser sig selv lidt ekstra, når I er to om at dele workouten.
-                                </p>
-                            </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: orangered; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">TEAM WOD</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Snup din bedste kammerat under armen og kør en god og sjov makker Workout sammen. Her er teamwork og strategi en fordel, og I vil opleve at man presser sig selv lidt ekstra, når I er to om at dele workouten.
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: mediumpurple; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">GYMNASTIC</a>
-                            </h4>
-                        </div>
-                        <div id="collapse5" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Her har vi meget fokus på, hvordan vi træner os stærke og holder god teknik i de gymnastiske øvelser. En gymnastic time kan foregå meget i pull-up baren, i ringene og på gulvet da træningen handler meget om, hvordan vi kan træne uden ekstern vægt men kun med vores egen kropsvægt.     
-                                </p>
-                            </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: mediumpurple; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">GYMNASTIC</a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Her har vi meget fokus på, hvordan vi træner os stærke og holder god teknik i de gymnastiske øvelser. En gymnastic time kan foregå meget i pull-up baren, i ringene og på gulvet da træningen handler meget om, hvordan vi kan træne uden ekstern vægt men kun med vores egen kropsvægt.     
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: darkgoldenrod; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">OL - Weightlifting</a>
-                            </h4>
-                        </div>
-                        <div id="collapse6" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    En teknisk træning kun med fokus på at få god teknik på vores olympiske løft træk (snatch) og stød (clean & jerk)
-                                </p>
-                            </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: darkgoldenrod; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">OL - Weightlifting</a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                En teknisk træning kun med fokus på at få god teknik på vores olympiske løft træk (snatch) og stød (clean & jerk)
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: darkgrey; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">MOBILITY</a>
-                            </h4>
-                        </div>
-                        <div id="collapse7" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Ønsker du mere mobilitet til den stærke krop? På mobility holdene gennemgår vi øvelser, som øger din mobilitet, så du kan opnå simple ting, som at kunne nå dine tæer med strakte ben eller at komme dybere ned i dit squat.
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: darkgrey; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">MOBILITY</a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Ønsker du mere mobilitet til den stærke krop? På mobility holdene gennemgår vi øvelser, som øger din mobilitet, så du kan opnå simple ting, som at kunne nå dine tæer med strakte ben eller at komme dybere ned i dit squat.
                             En god mobilitet er med til at mindske risikoen for skader og generel hjælpe til bedre bevægelighed.
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: black">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" style="color: whitesmoke">STYRKE</a>
-                            </h4>
-                        </div>
-                        <div id="collapse8" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    På styrkeholdene vil der som navnet antyder være fokus på styrketræningen og øgning af muskelmasse. Der vil blive brugt meget tid god teknik i de tre vigtigste styrkeløft (dødløft, squat og pres)
-                                </p>
-                            </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: black">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" style="color: whitesmoke">STYRKE</a>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                På styrkeholdene vil der som navnet antyder være fokus på styrketræningen og øgning af muskelmasse. Der vil blive brugt meget tid god teknik i de tre vigtigste styrkeløft (dødløft, squat og pres)
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: darkolivegreen">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" style="color: whitesmoke">LEVEL 2</a>
-                            </h4>
-                        </div>
-                        <div id="collapse9" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Er til dig som har godt styr på de basale øvelser og ønsker en mere udfordrende træning, hvor der bliver set på teknik af de mere teknisk svære øvelser.  
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: darkolivegreen">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" style="color: whitesmoke">LEVEL 2</a>
+                        </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Er til dig som har godt styr på de basale øvelser og ønsker en mere udfordrende træning, hvor der bliver set på teknik af de mere teknisk svære øvelser.  
                 Har du måske ønske om at konkurrere indenfor funktional fitness / Cross-fitness vil Level 2 være holdet for dig.
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: deeppink; color: whitesmoke">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Kidz/Outdoor</a>
-                            </h4>
-                        </div>
-                        <div id="collapse10" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="lead">
-                                    Kidz er få de små krudtugler i alderen 6-9 år. Træningen for ungerne foregår indenfor med den dygtige instruktør Simon Skøtt. 
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: deeppink; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Kidz/Outdoor</a>
+                        </h4>
+                    </div>
+                    <div id="collapse10" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Kidz er få de små krudtugler i alderen 6-9 år. Træningen for ungerne foregår indenfor med den dygtige instruktør Simon Skøtt. 
                                     Størstedelen af træningen for børnene vil ske gennem leg og bevægelse.
                                     - Outdoor foregår i samme tidsrum som KiDZ. På den måde har forældrene og alle andre mulighed for at træne, mens børnene har overtaget hallen
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -364,16 +365,6 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td>WOD</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">15:00-16:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
                         <td></td>
                     </tr>
                     <tr>
@@ -503,7 +494,6 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                 <ul>
                     <li>Grønlandsvej 9ø</li>
                     <li>8700 Horsens</li>
-                    <li>Telephone</li>
                     <li><a href="mailto:info@toolboxcf.dk?Subject=Hello%20again" target="_top">info@toolboxcf.dk</a></li>
                     <li>Copyright &copy; ToolBox CF ApS 2016</li>
                 </ul>

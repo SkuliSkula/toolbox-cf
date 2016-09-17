@@ -53,12 +53,13 @@ footer {
     margin-right:0px;
     margin-bottom:0px;
     font-size:larger;
+    overflow:hidden;
 }
 
 #footer1 {
     width:33%;
     height:234px;
-    margin-top:30px
+    margin-top:30px;
 }
 
 #footer1 a img {
