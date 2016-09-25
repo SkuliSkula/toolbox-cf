@@ -334,7 +334,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>Level 2</td>
+                        <td rowspan="2" style="vertical-align:middle">Level 2</td>
                         <td>WOD</td>
                     </tr>
                     <tr>
@@ -344,8 +344,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>Level 2</td>
-                        <td>OL Weightlifting</td>
+                        <td>OL Weightlifting</td>                      
                     </tr>
                     <tr>
                         <th scope="row">11:00-12:00</th>
@@ -380,9 +379,9 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <tr>
                         <th scope="row">17:00-18:00</th>
                         <td></td>
-                        <td>Beginners(1)</td>
+                        <td>WOD</td>
                         <td></td>
-                        <td>Beginners(1)</td>
+                        <td>WOD</td>
                         <td>Gymnastic</td>
                         <td></td>
                         <td></td>
@@ -390,9 +389,9 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <tr>
                         <th scope="row">18:00-19:00</th>
                         <td>Team WOD</td>
+                        <td>Beginners</td>
                         <td>WOD</td>
-                        <td>WOD</td>
-                        <td>WOD</td>
+                        <td>Beginners</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -400,9 +399,9 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                     <tr>
                         <th scope="row">19:00-20:00</th>
                         <td>WOD</td>
-                        <td>Beginners(2)</td>
+                        <td>WOD</td>
                         <td>Intro</td>
-                        <td>Beginners(2)</td>
+                        <td>WOD</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -427,8 +426,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                             case 'WOD':
                                 $(this).css('background-color', 'dodgerblue');
                                 break;
-                            case 'Beginners(1)':
-                            case 'Beginners(2)':
+                            case 'Beginners':                          
                                 $(this).css('background-color', 'deepskyblue');
                                 break;
                             case 'Level 2':
