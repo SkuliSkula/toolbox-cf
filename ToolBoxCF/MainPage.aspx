@@ -283,6 +283,24 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         </div>
                     </div>
                 </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: red; color: whitesmoke">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">FGB</a>
+                        </h4>
+                    </div>
+                    <div id="collapse11" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p class="lead">
+                                Fight Gone Bad (FGB)
+                                Er en trænings metode som altid kan love sved på panden.
+                                Strukturen af træningen er sammensat af 
+                                3 til 5 runder med 5min non stop action fordelt ud på 5 forskellige øvelser + 1 min pause  
+                                Her er niveauet også for ALLE kan være med!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -334,7 +352,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td rowspan="2" style="vertical-align:middle">Level 2</td>
+                        <td>WOD</td>
                         <td>WOD</td>
                     </tr>
                     <tr>
@@ -344,7 +362,8 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>OL Weightlifting</td>                      
+                        <td>Kidz/Outdoor</td>
+                        <td>OL Weightlifting</td>
                     </tr>
                     <tr>
                         <th scope="row">11:00-12:00</th>
@@ -353,7 +372,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>Kidz/Outdoor</td>
+                        <td rowspan="2" style="vertical-align: middle">Level 2</td>
                         <td>Styrke</td>
                     </tr>
                     <tr>
@@ -363,7 +382,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>WOD</td>
+                        <td></td>
                         <td></td>
                     </tr>
                     <tr>
@@ -372,7 +391,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td>WOD</td>
+                        <td>FGB</td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -382,7 +401,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td>WOD</td>
                         <td></td>
                         <td>WOD</td>
-                        <td>Gymnastic</td>
+                        <td>WOD</td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -426,7 +445,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                             case 'WOD':
                                 $(this).css('background-color', 'dodgerblue');
                                 break;
-                            case 'Beginners':                          
+                            case 'Beginners':
                                 $(this).css('background-color', 'deepskyblue');
                                 break;
                             case 'Level 2':
@@ -452,6 +471,9 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                                 break;
                             case 'Kidz/Outdoor':
                                 $(this).css('background-color', 'deeppink');
+                                break;
+                            case 'FGB':
+                                $(this).css('background-color', 'red');
                                 break;
                         }
                     });
