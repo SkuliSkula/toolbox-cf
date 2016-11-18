@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MainPage.aspx.cs" Inherits="ToolBoxCF.MainPage" %>
 
 <!DOCTYPE html>
-<html lang="dk">
+<html lang="en">
 
 <head>
 
@@ -109,7 +109,7 @@
     <div class="container">
         <hr class="featurette-divider">
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-circle img-responsive pull-right" src="images/Image3.jpg">
+            <img class="featurette-image img-circle img-circle img-responsive pull-right" src="images/Image3.jpg" alt="The StigMeister">
             <h2 class="featurette-heading">Hvad er 
                 <span class="text-muted">Funktional Fitness</span>
             </h2>
@@ -326,26 +326,6 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">06:00-07:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>WOD</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">08:00-09:00</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <th scope="row">09:00-10:00</th>
                         <td></td>
                         <td></td>
@@ -386,6 +366,16 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td></td>
                     </tr>
                     <tr>
+                        <th scope="row">15:00-16:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>WOD</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
                         <th scope="row">16:00-17:00</th>
                         <td></td>
                         <td></td>
@@ -401,7 +391,7 @@ Mens man i almindelige fitnesscentre ofte anvender maskiner til at træne meget 
                         <td>WOD</td>
                         <td></td>
                         <td>WOD</td>
-                        <td>WOD</td>
+                        <td></td>
                         <td></td>
                         <td></td>
                     </tr>
